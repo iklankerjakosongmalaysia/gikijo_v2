@@ -1,7 +1,7 @@
 const Dashboard = () => {
   return (
     <div>
-      <h1>Dashboard Page Laa!</h1>
+      <h1>Dashboard Page Hiii!</h1>
       {/* Add your dashboard content here */}
     </div>
   );
