@@ -1,14 +1,16 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './page.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import card from './components/card';
+import cCard from './components/cCard';
 import dashboard from './pages/dashboard';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        {card()}
+        {cCard()}
         {dashboard()}
         <p>
           HI Hafiz! Get started by editing&nbsp;
